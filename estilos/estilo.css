@@ -1,0 +1,487 @@
+#contenedor{
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    font-family: 'Amatic SC', cursive;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 25px;
+
+}
+
+h3{
+    font-size: 20px;
+
+}
+
+p{
+    font-size: 15px;
+    font-weight: bold ;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(#DCEFF0, white);
+    font-family: 'Acme', sans-serif;
+
+}
+
+.ham{
+   display: none;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.ham span{
+display: block;
+background-color: pink;
+height: 3px;
+width: 48px;
+margin: 10px auto;
+border-radius: 2px;
+
+
+}
+
+.enlaces-menu{
+    display: flex;
+    padding: 0;
+
+}
+
+.enlaces-menu li{
+padding: 0 40px;
+list-style: none;
+transition: 0.3s;
+}
+
+.enlaces-menu li a{
+    text-decoration: none;
+    color: #998366;
+}
+.enlaces-menu li:hover{
+    background-color: pink;
+}
+
+
+.enlaces-menu.activado{
+    display: flex;
+}
+
+
+/*-------------------------------------------empieza contenido-------------------------------*/
+
+
+#seccion{
+    display: flex;
+    justify-content: center;
+
+}
+
+#seccion h2{
+    margin: 20px;
+}
+
+#parrafos{
+    padding-left: 15px;
+
+    font-weight: bold ;
+    display: block;
+  
+
+}
+
+#parrafos h1{
+    margin-bottom: 10px;
+}
+
+#parrafos p{
+    line-height: 18px;
+    width: 300px;
+    flex-direction: column;
+}
+
+
+/*---------------------------------------comienza la parte de texto derecho---------------------------------------*/
+
+
+#parrafo2{
+ display: block;
+ padding-left: 15px;
+    
+}
+
+#parrafo2 h1{
+    margin-bottom: 10px;
+
+    
+}
+#parrafo2 p{
+    line-height: 18px;
+    width: 300px;
+}
+
+/*----------------------------------------------------comienza publicidad----------------------------------------------------*/
+
+.aside{
+    display: flex;
+    vertical-align: middle;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center
+}
+
+
+
+#publi2{
+    margin-left: 20px;
+}
+
+#publi3{
+    margin-left: 20px;
+}
+#publi6{
+    margin-left: 20px;
+}
+#publi7{
+    margin-left: 20px;
+}
+#publi8{
+    margin-left: 20px;
+}
+#publi9{
+    margin-left: 20px;
+}
+#publi10{
+    margin-left: 20px;
+}
+
+#publi4{
+    margin-left: 20px;
+}
+#publi5{
+    margin-left: 20px;
+}
+
+
+
+/*---------------------------------------pie de pagina---------------------------------------*/
+
+footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    
+  
+}
+
+footer p{
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 15px;
+    
+}
+
+.contacto{
+    vertical-align: top;
+    text-align: center;
+    vertical-align: middle;
+    
+
+    
+}
+.contacto ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center; 
+}
+
+.redes{
+    padding-left: 15px;
+}
+
+
+/*---------------------------------------aqui comienza laescuela---------------------------------------*/
+
+.laescuela{
+    margin-top: 20px;
+    display: inline-block;
+    padding-bottom: 50px;
+    width: 300px;
+    
+}
+
+
+.escuela{
+    line-height: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    padding-bottom: 50px;
+    width: 300px;
+}
+
+.escuela ul li{
+    font-size: 18px;
+}
+
+.cocineritos{
+    margin-left: 50px;
+    text-align: center;
+}
+.cocineritos h2{
+    font-size: 18px;
+
+}
+.foto1{
+    margin-top: 50px;
+    display: inline-block;
+    width: 200px;
+
+}
+
+.foto1 p{
+    font-size: 18px;
+}
+
+.foto2{
+    display: inline-block;
+    margin-left: 15px;
+    width: 200px;
+
+}
+
+.foto2 p{
+    margin-top: 10px;
+    font-size: 18px;
+    
+
+}
+
+.foto3{
+    margin-left: 15px;
+    display: inline-block;
+    width: 200px;
+
+}
+
+
+.foto3 p{
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+
+
+
+
+/*---------------------------------------aca comienza expos---------------------------------------*/
+
+
+.florencia{
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    grid-gap: 1rem;
+}
+
+.florencia h1{
+    display: inline-block;
+    margin-top: 20px;  
+}
+
+
+
+/*------------------------------------------------------aca comienza recetas------------------------------------------------------*/
+
+.recetas{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+.recetas p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.recetas h3{
+    margin-top: 20px;
+
+}
+
+.dulces{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding-left: 20px;
+    
+
+}
+
+.font-sinze{
+    font-size: 25px;
+
+}
+
+.dulces ul li{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.dulces ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #998366;
+
+}
+
+.dulces ul li a:hover{
+    color: pink;
+}
+
+.salado{
+    margin-top: 70px;
+    display: flex;
+    padding-left: 25px;
+}
+
+.salado ul li{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.salado ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #998366;
+}
+
+.salado ul li a:hover{
+    color: pink;
+}
+
+
+.publi4{
+    margin-left: 20px;
+}
+
+.publi5{
+    margin-left: 20px;
+
+}
+
+.publi7{
+    margin-left: 20px;
+
+}
+.publi8{
+    margin-left: 20px;
+
+}
+.publi9{
+    margin-left: 20px;
+}
+
+
+/*---------------------------------------------------------------------contacto*/
+
+  
+  .contenedor .form {
+      justify-content: center;
+    padding-bottom: 40px;
+    border-radius: 3px; }
+  
+  
+  .contenedor .form .form__header {
+    font-weight: normal;
+    padding: 14px 0; 
+}
+  
+  .contenedor .form .form__titulo {
+    color: #ccc;
+    padding-top: 10px; }
+  
+  .contenedor .form .form__label {
+    display: block;
+    font-size: 22px;
+    padding: 19px; }
+  
+  .contenedor .form .form__input, .contenedor .form .form__textarea {
+    background: #998366;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #444444;
+    width: 80%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 15px;
+    color: #fff;
+    font-family: sans-serif; }
+  
+  .contenedor .form .form__textarea {
+    resize: vertical;
+    min-height: 222px;
+    max-height: 222px; }
+  
+  .contenedor .form .form__button {
+    width: 50%;
+    font-family: sans-serif;
+    outline: none;
+    background: #998366;
+    font-size: 15px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 0;
+    cursor: pointer; }
+  
+
+  
+    .float{
+        position:fixed;
+        width:6%;
+        height:60px;
+        bottom: 155px;
+        right:100px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+       font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+       z-index:100;
+    }
+    .float:hover {
+        text-decoration: none;
+        color: #25d366;
+      background-color:#fff;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }

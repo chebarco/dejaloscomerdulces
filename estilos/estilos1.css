@@ -1,0 +1,213 @@
+/*nav*/
+@media (max-width: 375px) {
+  #contenedor {
+    width: 375px; }
+  .logo {
+    width: 375px; }
+  .ham {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 25px; }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: none; }
+  .enlaces-menu {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 375px;
+    display: none;
+    background-color: #DCEFF0; }
+  .enlaces-menu li {
+    text-align: center;
+    padding: 20px; }
+  #seccion {
+    flex-direction: column; }
+  #parrafos {
+    padding-left: 20px;
+    flex-direction: row; }
+  #parrafos2 {
+    flex-direction: row; }
+  .aside {
+    flex-direction: row;
+    width: 375px; }
+  footer p {
+    width: 300px; }
+  #contacto {
+    padding-left: 50px;
+    width: 400px;
+    text-align: start;
+    vertical-align: top; }
+  .laescuela {
+    width: 350px;
+    text-align: center; }
+  .escuela {
+    text-align: left; }
+  .cocineritos {
+    padding-left: 22px;
+    text-align: none;
+    display: grid; }
+  .coloral {
+    width: 350px; }
+  .florencia {
+    width: 350px; }
+  .coloral {
+    margin-top: 100px;
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-gap: 1rem; }
+  .coloral h2 {
+    display: inline-block;
+    margin-top: 20px; }
+  .recetas {
+    width: 350px; }
+  .dulces {
+    width: 350px; }
+  .font-sinze li a {
+    font-size: 20px; }
+  .dulces h3 {
+    margin-left: 40px;
+    font-size: 25px; }
+  .salado {
+    width: 300px; }
+  .font-sinze li a {
+    font-size: 20px; }
+  .salado h3 {
+    font-size: 25px; }
+  .publicidad {
+    padding-left: 10px;
+    width: 350px;
+    flex-direction: row;
+    justify-content: left; }
+  .contenedor {
+    padding-left: 10px;
+    width: 30%; }
+    .contenedor .form__texto {
+      width: 80%;
+      color: black; }
+    .contenedor .form__button {
+      margin-left: 80px; }
+    .contenedor .form_titulo {
+      margin-left: 20px; } }
+
+@media (max-width: 414px) {
+  #contenedor {
+    width: 400px; }
+  .logo {
+    width: 400px; }
+  .ham {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 25px; }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: none; }
+  .enlaces-menu {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    display: none;
+    background-color: #DCEFF0; }
+  .enlaces-menu li {
+    text-align: center;
+    padding: 20px; }
+  #seccion {
+    flex-direction: column; }
+  #parrafos {
+    flex-direction: row; }
+  #parrafos2 {
+    flex-direction: row; }
+  .aside {
+    flex-direction: row;
+    width: 350px; }
+  footer p {
+    width: 250px; }
+  #contacto {
+    padding-left: 50px;
+    width: 300px;
+    text-align: start;
+    vertical-align: top; }
+  .laescuela {
+    width: 350px;
+    text-align: center; }
+  .escuela {
+    padding-right: 80px;
+    text-align: left; }
+  .cocineritos {
+    padding-left: 22px;
+    text-align: none;
+    display: grid; }
+  .coloral {
+    width: 400px; }
+  .florencia {
+    width: 400px; }
+  .coloral {
+    margin-top: 100px;
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-gap: 1rem; }
+  .coloral h2 {
+    display: inline-block;
+    margin-top: 20px; }
+  .recetas {
+    width: 400px; }
+  .dulces {
+    width: 400px; }
+  .font-sinze li a {
+    font-size: 20px; }
+  .dulces h3 {
+    margin-left: 40px;
+    font-size: 25px; }
+  .salado {
+    width: 400px; }
+  .font-sinze li a {
+    font-size: 20px; }
+  .salado h3 {
+    font-size: 25px; }
+  .publicidad {
+    padding-left: 10px;
+    flex-direction: row;
+    justify-content: left; }
+  .publi4 {
+    width: 50px; }
+  .publi5 {
+    width: 50px; }
+  .publi7 {
+    width: 40px; }
+  .publi8 {
+    width: 40px; }
+  .publi9 {
+    width: 40px; }
+  .contenedor {
+    width: 95%; }
+  .form__texto {
+    width: 80%;
+    color: black; }
+  .form__button {
+    margin-left: 80px; }
+  .form_titulo {
+    margin-left: 20px; }
+  .float {
+    position: absolute;
+    width: 60px;
+    left: 300px;
+    height: 60px;
+    top: 1000px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100; } }
